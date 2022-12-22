@@ -1,0 +1,19 @@
+# OBJ Material Export by Luxion KeyShot
+
+newmtl [Color I04]
+Kd 0 0.124575 1
+
+newmtl Paint Matte Black
+Kd 0.0025 0.0025 0.0025
+
+newmtl Paint Matte Black
+Kd 0.0025 0.0025 0.0025
+
+newmtl [Color C04]
+Kd 1 0.153787 0
+
+newmtl Paint Matte Black
+Kd 0.0025 0.0025 0.0025
+
+newmtl Paint Matte Black
+Kd 0.0025 0.0025 0.0025

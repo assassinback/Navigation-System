@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+	<asset>
+		<contributor>
+			<author>Assimp</author>
+			<authoring_tool>Assimp Exporter</authoring_tool>
+		</contributor>
+		<created>2021-12-13T20:29:05</created>
+		<modified>2021-12-13T20:29:05</modified>
+		<unit name="meter" meter="1.000000" />
+		<up_axis>Y_UP</up_axis>
+	</asset>
+	<library_effects>
+		<effect id="wire_061135006-fx" name="wire_061135006">
+			<profile_COMMON>
+				<technique sid="standard">
+					<phong>
+						<emission>
+							<color sid="emission">0.000000   0.000000   0.000000   1.000000</color>
+						</emission>
+						<ambient>
+							<color sid="ambient">0.239216   0.529412   0.023529   1.000000</color>
+						</ambient>
+						<diffuse>
+							<color sid="diffuse">0.239216   0.529412   0.023529   1.000000</color>
+						</diffuse>
+						<specular>
+							<color sid="specular">0.350000   0.350000   0.350000   1.000000</color>
+						</specular>
+						<shininess>
+							<float sid="shininess">128.000000</float>
+						</shininess>
+						<transparency>
+							<float sid="transparency">0.000000</float>
+						</transparency>
+						<index_of_refraction>
+							<float sid="index_of_refraction">1.000000</float>
+						</index_of_refraction>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_materials>
+		<material id="wire_061135006" name="wire_061135006">
+			<instance_effect url="#wire_061135006-fx"/>
+		</material>
+	</library_materials>
+	<library_geometries>
+		<geometry id="meshId0" name="meshId0_name" >
+			<mesh>
+				<source id="meshId0-positions" name="meshId0-positions">
+					<float_array id="meshId0-positions-array" count="12"> 
+						-13.823765 0.000000 -15.950457 -13.823765 0.000000 6.209129 23.372108 0.000000 6.209129 23.372108 0.000000 -15.950457 
+					</float_array>
+					<technique_common>
+						<accessor count="4" offset="0" source="#meshId0-positions-array" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="meshId0-normals" name="meshId0-normals">
+					<float_array id="meshId0-normals-array" count="12"> 
+						0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 
+					</float_array>
+					<technique_common>
+						<accessor count="4" offset="0" source="#meshId0-normals-array" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="meshId0-tangents" name="meshId0-tangents">
+					<float_array id="meshId0-tangents-array" count="12"> 
+						0.999998 0.000000 -0.002026 0.999998 0.000000 -0.002026 0.999998 0.000000 -0.002025 0.999998 0.000000 -0.002026 
+					</float_array>
+					<technique_common>
+						<accessor count="4" offset="0" source="#meshId0-tangents-array" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="meshId0-bitangents" name="meshId0-bitangents">
+					<float_array id="meshId0-bitangents-array" count="12"> 
+						-0.002026 0.000000 -0.999998 -0.002026 0.000000 -0.999998 -0.002025 0.000000 -0.999998 -0.002026 0.000000 -0.999998 
+					</float_array>
+					<technique_common>
+						<accessor count="4" offset="0" source="#meshId0-bitangents-array" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="meshId0-tex0" name="meshId0-tex0">
+					<float_array id="meshId0-tex0-array" count="8"> 
+						0.014908 0.708271 0.013261 0.023462 0.981777 0.021134 0.983423 0.705942 
+					</float_array>
+					<technique_common>
+						<accessor count="4" offset="0" source="#meshId0-tex0-array" stride="2">
+							<param name="S" type="float" />
+							<param name="T" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="meshId0-vertices">
+					<input semantic="POSITION" source="#meshId0-positions" />
+				</vertices>
+				<polylist count="2" material="defaultMaterial">
+					<input offset="0" semantic="VERTEX" source="#meshId0-vertices" />
+					<input offset="0" semantic="NORMAL" source="#meshId0-normals" />
+					<input offset="0" semantic="TANGENT" source="#meshId0-tangents" />
+					<input offset="0" semantic="BINORMAL" source="#meshId0-bitangents" />
+					<input offset="0" semantic="TEXCOORD" source="#meshId0-tex0" set="0" />
+					<vcount>
+						3 3 
+					</vcount>
+					<p>
+						3 0 1 1 2 3 
+					</p>
+				</polylist>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_visual_scenes>
+		<visual_scene id="ALFOMBRA.obj" name="ALFOMBRA.obj">
+			<node id="Plane001" name="Plane001">
+				<matrix>1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+			</node>
+			<node id="Plane001" name="Plane001">
+				<matrix>1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+				<instance_geometry url="#meshId0">
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="defaultMaterial" target="#wire_061135006" />
+						</technique_common>
+					</bind_material>
+				</instance_geometry>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#ALFOMBRA.obj" />
+	</scene>
+</COLLADA>
